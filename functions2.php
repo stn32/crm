@@ -1,3 +1,4 @@
+<?php
 
 /**
  * v.2.1
@@ -150,3 +151,5 @@ function save_stock_to_database($variation_data, $store_stock_info) {
 			$wpdb->insert('var_stock_ms', $data);
 	}
 }
+
+?>
